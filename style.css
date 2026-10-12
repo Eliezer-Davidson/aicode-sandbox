@@ -1,0 +1,16 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  display: flex; flex-direction: column;
+  font: 16px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #0f172a; color: #e2e8f0;
+}
+header, footer { padding: 12px 20px; text-align: center; }
+header h1 { margin: 0 0 4px; font-size: 1.4rem; letter-spacing: .02em; }
+header p, footer { margin: 0; font-size: .85rem; color: #94a3b8; }
+canvas {
+  flex: 1; display: block; width: 100%;
+  background: #1e293b; cursor: crosshair;
+  border-top: 1px solid #334155; border-bottom: 1px solid #334155;
+}
